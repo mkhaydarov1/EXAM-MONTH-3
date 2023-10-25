@@ -1,3 +1,22 @@
+.back-top{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ff0;
+    background-color: #055;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1100px;
+    bottom: 0px;
+    position: fixed;
+    a{
+        font-size: 25px;
+        color: #fff;
+        margin-left: 15px;
+    }
+}
 header{
     height: 550px;
     border: 1px solid;
@@ -183,7 +202,7 @@ margin-bottom: 20px;
         transition: 0.5s;
     }
     .card-home{
-        width: 269.5px;
+        width: 265px;
         height: 349px;
         .star-home{
             span{
